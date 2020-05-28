@@ -11,7 +11,8 @@ class CashRegister
    quantity.times do 
      @items<< item
   @total += price*quantity
-  last_transaction = price*quantity
+ end
+  @last_transaction = price*quantity
 end
   def apply_discount
     new_total = (@total*0.80)
