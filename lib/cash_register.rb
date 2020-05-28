@@ -20,7 +20,7 @@ end
     new_total = (@total-(@total*(@discount.to_i*(1/100)))
     new_total
   end
-  
+end
   #def add_item(title, amount, quantity=1)
    # self.total += amount * quantity
     #quantity.times do
