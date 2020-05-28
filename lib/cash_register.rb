@@ -3,8 +3,7 @@ class CashRegister
   
   def initialize
   @total = 0
-  if :employee 
-    self.apply_discount
+   @employee ? self.apply_discount : :customer
   end
  end
    
