@@ -28,9 +28,6 @@ end
     @total
  end
  def void_last_transaction
-  @total-@last_transaction
-  if !@items
-    @total = 0.0
-  end 
+  (@total-@last_transaction).to_f 
   end
  end
