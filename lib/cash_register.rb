@@ -14,17 +14,20 @@ class CashRegister
  end
   @last_transaction = price*quantity
 end
+  
   def apply_discount
-    @discount= 20
-    new_total = @total-(@total*(@discount*(1/100))
+    @discount = 20
+    new_total = (@total-(@total*(@discount*(1/100)))
     new_total
   end
+  
   #def add_item(title, amount, quantity=1)
    # self.total += amount * quantity
     #quantity.times do
      # items << title
     #end
     ##end
+  
   def total
     @total
  end
