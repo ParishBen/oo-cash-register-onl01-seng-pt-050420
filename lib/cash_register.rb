@@ -4,7 +4,7 @@ class CashRegister
   def initialize
   @total = 0
    @employee ? self.apply_discount : :customer
-  end
+  
  end
    
   def apply_discount
