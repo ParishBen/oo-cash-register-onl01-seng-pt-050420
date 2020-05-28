@@ -28,6 +28,6 @@ end
     @total
  end
  def void_last_transaction
-  (@total-@last_transaction).to_f 
+  (@total.to_f - @last_transaction.to_f).to_f
   end
  end
