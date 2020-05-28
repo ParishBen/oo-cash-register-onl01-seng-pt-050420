@@ -2,11 +2,14 @@ class CashRegister
   attr_accessor :total :employee
   def initialize
   @total = 0
-  if @employee (@total*0.80)
+  if @employee 
+    apply_discount
    end
  end
   def 
-  def employee_discount
+  def apply_discount
+    new_total= (@total*0.80)
+    new_total
   end
   def total
     @total
