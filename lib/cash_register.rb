@@ -5,7 +5,7 @@ class CashRegister
   @total = 0
   if @employee 
     apply_discount
-   end
+   
  end
    
   def apply_discount
@@ -14,5 +14,5 @@ class CashRegister
   end
   def total
     @total
-end
+ end
 end
