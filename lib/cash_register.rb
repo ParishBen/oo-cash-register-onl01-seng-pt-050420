@@ -31,6 +31,6 @@ end
   @total-@last_transaction
   if !@items
     @total = 0.0
-   
+  end 
   end
  end
