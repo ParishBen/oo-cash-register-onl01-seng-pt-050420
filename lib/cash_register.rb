@@ -27,4 +27,9 @@ end
   def total
     @total
  end
+ def void_last_transaction
+  @total-@last_transaction
+  @last_transaction.clear
+   
+  end
  end
