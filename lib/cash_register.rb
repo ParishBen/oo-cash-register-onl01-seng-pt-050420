@@ -17,7 +17,7 @@ end
   
   def apply_discount
     if @discount != 0
-    new_total = (@total-(@total*(@discount*(1/100)))
+    new_total = (@total-(@total*(@discount.to_i*(1/100)))
     new_total
   end
   
